@@ -1,7 +1,7 @@
 # poligran-operational-systems
 This repository contains the whole code to be used for operational systems class. The code is divided in two parts:
 
-* **Week 5**: The code for the 5th week of the class.
+* **Week 5**: The code for the 5th week of the class NOTE: please check the week5 folder.
 * **Week 7**: The code for the 7th week of the class.
 
 > **Disclaimer:** All code is written in **Python3**, and needs [poetry](https://python-poetry.org/) installed.
