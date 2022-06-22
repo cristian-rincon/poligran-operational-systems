@@ -1,8 +1,10 @@
 import typer
 import week5.multithread_program
+import week7.multithread_program_final
 
 app = typer.Typer()
-app.add_typer(week5.multithread_program.app, name="multithread_program")
+app.add_typer(week5.multithread_program.app, name="week5")
+app.add_typer(week7.multithread_program_final.app, name="week7")
 
 @app.command()
 def hello(name:str):

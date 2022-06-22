@@ -40,7 +40,7 @@ You can pass the image ids to the app, and it will download the images to the cu
 For example:
 
 ```bash
-python main.py multithread_program download-photos 8562239 12328375 12250627 12325904
+python main.py week5 download-photos 8562239 12328375 12250627 12325904
 ```
 
 Sample output:
@@ -59,3 +59,21 @@ Downloading progress  [####################################]  100%
 ```
 
 Congratulations, you have downloaded 4 photos. :rocket:
+
+## Week 7
+
+### Exercise A - Multithread application
+
+Write a program for a small application in Java/Python on the Linux virtual machine,
+with four classes (main, clean, generate and consume), where from the main it executes
+the class, clean and synchronize two threads, one to generate a variable called void that
+has the value "true", but that the consuming thread stays waiting and, when it changes
+to "false" in the spawner thread, then that variable is taken by the consumer thread.
+
+#### Demo
+
+All the source code is in the `week7` folder.
+
+[![asciicast](https://asciinema.org/a/503409.svg)](https://asciinema.org/a/503409)
+
+> **Disclaimer:** All code is written in **Python3**, and needs [poetry](https://python-poetry.org/) installed. You need to follow the instructions from [How to use the app](#how-to-use-the-app) section, before you can run the app.
