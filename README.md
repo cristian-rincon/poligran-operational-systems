@@ -77,3 +77,21 @@ All the source code is in the `week7` folder.
 [![asciicast](https://asciinema.org/a/503409.svg)](https://asciinema.org/a/503409)
 
 > **Disclaimer:** All code is written in **Python3**, and needs [poetry](https://python-poetry.org/) installed. You need to follow the instructions from [How to use the app](#how-to-use-the-app) section, before you can run the app.
+
+
+
+#Punto D Montaje sistemas de archivos NFS (Comandos)
+
+#Insatalcion Servidor.
+#apt install nfs-kernel-server
+#mkdir /var/nfs/compartido -p
+#nano /etc/expor 
+#export -a 
+#systemctl restart nfs-kernel-server
+
+
+#Instalacion cliente
+#mkdir -p /nfs/compartido
+#mkdir -p /nfs/home
+#mount  172.25.100.120:/var/nfs/compartido /nfs/comparitdo
+#df -h
